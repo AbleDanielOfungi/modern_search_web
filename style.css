@@ -1,0 +1,47 @@
+.search {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: transparent;
+    border: 1px white;
+    overflow:hidden;
+    background: url(images/search.png) no-repeat rgb(233, 74, 0);
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search:hover{
+    cursor: pointer;
+    border: 1px solid #FF9950;
+    background: url(images/search.png) no-repeat purple;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search:focus{
+    width: 200px;
+    cursor: pointer;
+    padding-left: 40px;
+    color: white;
+    border: 1px solid  rgb(233, 74, 0);;
+    background-color: transparent;
+    background: url(images/search.png) no-repeat purple;
+    background-size: 22px;
+    background-position: 10px 50%;
+    
+
+}
+
+body{
+    background-color: purple;
+
+
+}
+
+
